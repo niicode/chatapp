@@ -1,0 +1,21 @@
+{
+  "name": "niichat",
+  "version": "1.0.0",
+  "description": "A simple chat application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "niicode",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
